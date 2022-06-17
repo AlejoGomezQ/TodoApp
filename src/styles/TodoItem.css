@@ -2,8 +2,9 @@
     list-style: none;
     display: flex;
     margin-bottom: 10px;
+    padding: 10px 0;
     border-radius: 8px;
-    -webkit-box-shadow: 3px 3px 7px 4px #aaaaaa; 
+    -webkit-box-shadow: 1px 1px 3px 2px #aaaaaa; 
     box-shadow: 1px 1px 3px 2px #aaaaaa;
     background: #ffffff;
     font-family: 'Lato';
@@ -16,10 +17,14 @@
     font-size: 1.2rem;
 }
 
-.check-active, .check:hover {
+.check-active, .check:hover, .check:focus{
     color: #0be007;
 }
 
-.un-check-active, .un-check:hover {
+.un-check-active, .un-check:hover, .un-check:focus {
     color: #e0212e;
+}
+
+.task {
+    margin: 0;
 }

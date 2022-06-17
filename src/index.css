@@ -6,4 +6,5 @@ body {
   box-sizing: border-box;
   font-family: 'Kdam Thmor Pro', sans-serif;
   background: linear-gradient(#eeaeca, #94bbe9);
+  overflow-x: hidden;
 }

@@ -9,8 +9,8 @@
   height: auto;
   padding: 10px;
   border-radius: 12px;
-  -webkit-box-shadow: 5px 5px 15px 5px #aaaaaa; 
-  box-shadow: 5px 5px 15px 5px #aaaaaa;
+  -webkit-box-shadow: 1px 1px 3px 2px #aaaaaa; 
+  box-shadow: 1px 1px 3px 2px #aaaaaa;
   background-color: #ffffff;
 }
 
