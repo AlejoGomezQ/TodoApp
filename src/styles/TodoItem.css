@@ -1,0 +1,25 @@
+.todo {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 3px 7px 4px #aaaaaa; 
+    box-shadow: 1px 1px 3px 2px #aaaaaa;
+    background: #ffffff;
+    font-family: 'Lato';
+}
+
+.check, .un-check {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+}
+
+.check-active, .check:hover {
+    color: #0be007;
+}
+
+.un-check-active, .un-check:hover {
+    color: #e0212e;
+}
