@@ -6,7 +6,7 @@ import '../styles/TodoImage.css';
 
 function TodoImage() {
     return (
-        <img src={image} alt="add_task"/>
+        <img src={ image } alt="add_task"/>
     );
 }
 
